@@ -16,6 +16,7 @@ end function map-resources;
 define function main
     ()
 
+  // print arguments + TODO enviroment vars
   format-out("arguments: %=\n", application-arguments);
 
   // TODO port comes as cmd line arg???
