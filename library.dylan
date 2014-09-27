@@ -3,6 +3,9 @@ Module: dylan-user
 define library hello-world
   use common-dylan;
   use io;
+  use http-common;
+  use http-server;
+
 end library hello-world;
 
 
