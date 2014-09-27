@@ -1,5 +1,9 @@
 <html>
-	<head>Hello world from dylan on Heroku</head>
+	<head>
+	  <title>
+	    Hello world from dylan on Heroku
+	  </title>
+	</head>
 	<body>
 		<h1>If you can read this, the heroku buildpack for opendylan is working</h1>
 
