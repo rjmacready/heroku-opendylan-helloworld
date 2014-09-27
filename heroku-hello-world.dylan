@@ -16,7 +16,7 @@ end function map-resources;
 define function main
     ()
 
-  // silly change
+  // silly change .
   // print arguments + TODO enviroment vars
   format-out("arguments: %=\n", application-arguments);
   format-out("port: %=\n", environment-variable("port"));
