@@ -1,18 +1,18 @@
 Module: dylan-user
 
-define library hello-world
+define library heroku-hello-world
   use common-dylan;
   use io;
   use http-common;
   use http-server;
   use dsp;
-end library hello-world;
+end library heroku-hello-world;
 
 
-define module hello-world
+define module heroku-hello-world
   use common-dylan;
   use format-out;
   use http-common;
   use http-server;
   use dsp;
-end module hello-world;
+end module heroku-hello-world;

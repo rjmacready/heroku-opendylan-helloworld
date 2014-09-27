@@ -18,6 +18,7 @@ define function main
 
   // print arguments + TODO enviroment vars
   format-out("arguments: %=\n", application-arguments);
+  format-out("port: %=\n", environment-variable("port"));
 
   // TODO port comes as cmd line arg???
   http-server-main(server: make(<http-server>, listeners: #("0.0.0.0:80")),
