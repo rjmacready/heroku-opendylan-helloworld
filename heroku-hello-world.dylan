@@ -1,4 +1,4 @@
-Module: hello-world
+Module: heroku-hello-world
 Synopsis: 
 Author: 
 Copyright: 
@@ -15,6 +15,10 @@ end function map-resources;
 
 define function main
     ()
+
+  format-out("arguments: %=\n", application-arguments);
+
+  // TODO port comes as cmd line arg???
   http-server-main(server: make(<http-server>, listeners: #("0.0.0.0:80")),
                    before-startup: map-resources);
 end function main;
