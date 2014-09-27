@@ -21,7 +21,7 @@ define function main
   format-out("port: %=\n", environment-variable("port"));
 
   // TODO port comes as cmd line arg???
-  http-server-main(server: make(<http-server>, listeners: #("0.0.0.0:80")),
+  http-server-main(server: make(<http-server>),
                    before-startup: map-resources);
 end function main;
 
