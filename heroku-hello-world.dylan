@@ -19,7 +19,8 @@ define function main
   // silly change ....
   // print arguments + TODO enviroment vars
   format-out("arguments: %=\n", application-arguments);
-  format-out("port: %=\n", environment-variable("port"));
+  format-out("$PORT: %=\n", environment-variable("$PORT"));
+  format-out("PORT: %=\n", environment-variable("PORT"));
 
   // TODO port comes as cmd line arg???
   http-server-main(server: make(<http-server>),
