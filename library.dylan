@@ -6,6 +6,7 @@ define library heroku-hello-world
   use http-common;
   use http-server;
   use dsp;
+  use system;
 end library heroku-hello-world;
 
 
@@ -15,4 +16,5 @@ define module heroku-hello-world
   use http-common;
   use http-server;
   use dsp;
+  use operating-system;
 end module heroku-hello-world;
