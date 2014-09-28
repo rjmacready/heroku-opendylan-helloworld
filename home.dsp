@@ -11,5 +11,7 @@
 
 		<a href="https://github.com/rjmacready/heroku-opendylan-helloworld">Repo</a>
 		<a href="https://github.com/rjmacready/heroku-buildpack-opendylan">Buildpack</a>
+
+		Last update: 2014/09/28
 	</body>
 </html>
